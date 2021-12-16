@@ -3,6 +3,7 @@
 // contract Lottery{
 //     address public manager;
 //     address[] public players;
+//     address public lastWinner;
 
 //     function Lottery() public {
 //         manager = msg.sender;
@@ -25,6 +26,7 @@
 
 //     //     uint index = random() % players.length;
 //     //     players[index].transfer(this.balance);
+//     //     lastWinner = players[index]; // this is just for getting the winner info
 //     //     players = new address[](5);
 //     // }
 
